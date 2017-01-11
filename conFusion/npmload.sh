@@ -1,5 +1,6 @@
 #! bin/sh
 
+sudo rm -rf node_modules
 sudo npm install gulp --save-dev
 sudo npm install gulp-minify-css --save-dev
 sudo npm install gulp-jshint --save-dev
